@@ -9,4 +9,6 @@ DJB Lloyd 2020. https://arxiv.org/pdf/1911.03983
 
 Subdirectories:
 Invasion fronts 1D code:
+Continuation of quadratic-cubic and cubic-quintic 1D Swift-Hohenberg equation
+
 
