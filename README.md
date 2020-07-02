@@ -14,6 +14,8 @@ Continuation of invasion fronts in the quadratic-cubic 1D Swift-Hohenberg equati
 **BVP_1D_cubic_quin:** `continuation_front_invasion.m`
 Continuation of invasion fronts in the cubic-quintic 1D Swift-Hohenberg equation
 
+**BVP_2D_Hex:** `continuation_front_invasion_10_fixed_nonvar.m` and `continuation_front_invasion_11_fixed_nonvar.m` Continuation of hexagon <10> and <11> invasion fronts in the quadratic-cubic 2D Swift-Hohenberg equation
+
 
 
 
