@@ -11,7 +11,8 @@ Hexagon Invasion Fronts Outside the Homoclinic Snaking Region in the Planar Swif
 
 # Subdirectories:
 
-**IVPs:** Initial value solves
+**IVPs:** Initial value solvers
+
 `swifthohen2DETD_hex_nu_1_6_front_10_defect.m` time evolve a hexagon <10> front that develops a defect
 `swifthohen2DETD_hex_invade_patch_fourth_order.m` time evolve a hexagon patch
 `swifthohen2DETD_worm_invade_patch_fourth_order.m` time evolve a stripe patch
