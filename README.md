@@ -14,7 +14,9 @@ Hexagon Invasion Fronts Outside the Homoclinic Snaking Region in the Planar Swif
 **IVPs:** Initial value solvers
 
 `swifthohen2DETD_hex_nu_1_6_front_10_defect.m` time evolve a hexagon <10> front that develops a defect
+
 `swifthohen2DETD_hex_invade_patch_fourth_order.m` time evolve a hexagon patch
+
 `swifthohen2DETD_worm_invade_patch_fourth_order.m` time evolve a stripe patch
 
 **BVP_1D_quad_cubic:** `continuation_front_invasion.m`
@@ -26,7 +28,7 @@ Continuation of invasion fronts in the cubic-quintic 1D Swift-Hohenberg equation
 **BVP_2D_Stripes:** `continuation_front_invasion.m`
 Continuation of almost planar invasion fronts in the cubic-quintic 2D Swift-Hohenberg equation
 
-**BVP_2D_Hex:** `continuation_front_invasion_10_fixed_nonvar.m` and `continuation_front_invasion_11_fixed_nonvar.m` Continuation of hexagon <10> and <11> invasion fronts in the quadratic-cubic 2D Swift-Hohenberg equation
+**BVP_2D_Hex:** `continuation_front_invasion_10_fixed_nonvar.m` and `continuation_front_invasion_11_fixed_nonvar.m` Continuation of hexagon <10> and <11> invasion fronts in the quadratic-cubic 2D Swift-Hohenberg equation with/out a non-variational term.
 
 **Hexagon_fold:** `continuation_hexagons_fold_ky_kx_mu_0_32_nu_1_6.m` Continuation of a cellular hexagon fold in k_x and k_y with mu=0.32 and nu=0.9.
 
