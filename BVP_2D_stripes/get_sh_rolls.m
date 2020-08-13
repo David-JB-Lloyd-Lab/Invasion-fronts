@@ -4,7 +4,7 @@ function [uu_r,Duu_r,ur,ky_new] = get_sh_rolls(p,kz,ky,mesh_params,ur_0)
   nu = p(2); 
   % construct Swift-Hohenberg operators
   Dx = mesh_params.D1x*kz;
-  L  = -(mesh_params.D2x*kz^2 + mesh_params.Ix)^2 + mu;
+  L  = -(mesh_params.D2x*kz^2 + mesh_params.Ix)^2 + mu*mesh_params.Ix;
   ww = mesh_params.wx;
   
   % Solve SH on a periodic domain find rolls
