@@ -6,7 +6,7 @@ function [uu_r,Duu_r,ur,Dyuu_r] = get_sh_hexs_nonvar(p,kz,ky,mesh_params,ur_0)
   % construct Swift-Hohenberg operators
   Dx = mesh_params.Dx*kz;
   Dy = mesh_params.Dy*ky;
-  L  = -(mesh_params.Dxx*kz^2 + mesh_params.Dyy*ky^2 + mesh_params.Ixy)^2 + mu;
+  L  = -(mesh_params.Dxx*kz^2 + mesh_params.Dyy*ky^2 + mesh_params.Ixy)^2 + mu*mesh_params.Ixy;
   ww = mesh_params.ww2D;
   
   % Solve SH on a periodic domain find hexagons with ky fixed
