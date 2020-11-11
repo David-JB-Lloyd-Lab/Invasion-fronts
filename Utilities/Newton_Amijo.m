@@ -153,8 +153,7 @@ Temp1 = [C'; BT'];
 
 T = compactWY(W,ones(m,1)); T = -T;  % Q = speye(n+m)+W*T*W'; % This is the same as [Q,R] = qr(Temp1)
 W1 = W(1:m,:); W2 = W(m+1:end,:);
-U = (A*W1 + J*W2)*T; VT= W2'; % error in slides!
-% P = J + U*VT; % don't think i want to ever form this matrix as U*VT is full!   
+U = (A*W1 + J*W2)*T; VT= W2';  
 
 ZY = R'\G; 
 
