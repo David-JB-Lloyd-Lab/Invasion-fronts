@@ -18,8 +18,8 @@ mu = -0.1;
 kt = 0.99; % initial guess for kt and kz
 kz = 0.99;
 
-d = 40; % cut off point at x = -d
-m = 1;  % stepness parameter 
+d = 40; % cut off function parameter: point at x = -d
+m = 1;  % cut off function parameter: steepness m = 1
 
 p(1) = mu;
 p(2) = nu;
