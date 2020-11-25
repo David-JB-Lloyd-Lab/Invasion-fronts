@@ -158,7 +158,10 @@ U = (A*W1 + J*W2)*T; VT= W2';
 ZY = R'\G; 
 
 F2 = F - [A J]*house_apply(W,[ZY;zeros(n,1)]);
-Z = J\U; Y = J\F2;
+
+dA = decomposition(J,'lu'); % carry out a sparse LU decomposition of J
+Z = dA\U; Y = dA\F2; % solve for Z and Y using the LU decomposition
+
 ZX= Y - Z*(inv(speye(m)+VT*Z)*VT*Y); % update using Woodbury matrix formula
 
 X = house_apply(W,[ZY;ZX]); % compute [Y;X] = Q*[ZY;ZX] without computing Q!
