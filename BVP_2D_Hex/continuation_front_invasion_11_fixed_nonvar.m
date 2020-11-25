@@ -24,7 +24,7 @@ SetupDiffMats; % build differentiation matrices, mesh etc.
  % Swift-Hohenberg parameters
  mu = -0.1;
 nu = 1.6;
-kt = 1;         % initial guess wavenumber in time
+kt = 2;         % initial guess wavenumber in time
 ky = 0.425;     % wavenumber in y
 kz = sqrt(3)/2; % initial guess wavenumber in z
 
