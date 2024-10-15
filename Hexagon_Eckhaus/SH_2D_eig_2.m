@@ -41,11 +41,11 @@ ky = p(3);
   
   F2 = L*v - lam*v;
   
-  F3 = imag(L*vg - lamg*v - 4*1i*(speye(n) + kx^2*mesh_params.Dxx)*kx*mesh_params.Dx*v);
+  F3 = imag(L*vg - lamg*v - 4*1i*(speye(n) + kx^2*mesh_params.Dxx)*kx^2*mesh_params.Dx*v);
 
   F4 = real(L*vgg - 2*lamg*vg - lamgg*v ...
-      - 8*1i*(speye(n) + kx^2*mesh_params.Dxx)*kx*mesh_params.Dx*vg ...
-      + 4*v + 12*kx^2*mesh_params.Dxx*v);
+      - 8*1i*(speye(n) + kx^2*mesh_params.Dxx)*kx^2*mesh_params.Dx*vg ...
+      + 4*k^2*v + 12*kx^4*mesh_params.Dxx*v);
   
 F = [F1;F2;F3;F4];
 
